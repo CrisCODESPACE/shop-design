@@ -1,0 +1,52 @@
+#header {
+  background-color: var(--secondary-white);
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: 46px;
+
+  .header-topbar {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Poppins-med";
+    font-size: 22px;
+    text-transform: uppercase;
+  }
+
+  .header-nav {
+    display: flex;
+    align-items: center;
+    gap: 65px;
+  }
+}
+
+#main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 56px;
+  .hero {
+    width: 80%;
+    display: flex;
+    background-color: var(--bg-hero);
+    border-radius: 30px;
+  }
+}
+
+/* .layout-header { espacios entre el borde de un contenedor al cual se aplique este layout y su contenido
+  padding-left: 100px;
+  padding-right: 100px;
+} */
+
+/*.layout {
+   width: calc(100% - 100px); a través de la func. calc() calculamos el ancho del layout (separacion entre contenedor y contenido)
+}*/
+
+.btn-style {
+  background-color: var(--secondary-black);
+  color: var(--secondary-white);
+  padding: 22px 15px;
+  border-radius: 7px;
+}
