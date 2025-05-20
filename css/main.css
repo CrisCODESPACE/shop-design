@@ -74,6 +74,73 @@
       justify-content: space-around;
     }
   }
+  .new-arrivals{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 69px 0;
+
+    .arrivals-container{
+      width: 80%;
+
+      h2{
+        font-family: "Poppins-bl";
+        font-size: 48px;
+        text-transform: uppercase;
+      }
+
+      .arrivals-cards{
+        padding: 118px 0;
+        display: flex;
+        gap: 90px;
+
+        .card{
+
+          .card-description{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 26px 0;
+            
+            
+            div{
+             font-family: "Poppins-med";
+
+             h3{
+              font-size: 32px;
+              font-weight: normal;
+             }
+
+             p{
+              font-size: 24px;
+              color: var(--grey-text);
+             }
+            }
+
+            a{
+              width: 32px;
+              height: auto;
+              
+              svg{
+                stroke: var(--grey-text);
+
+                &:hover{
+                  stroke: var(--extra);
+                }
+              }
+
+
+            }
+
+          }
+        }
+      }
+    }
+
+  }
+
+  
 }
 
 /* .layout-header { espacios entre el borde de un contenedor al cual se aplique este layout y su contenido
