@@ -30,8 +30,32 @@
   .hero {
     width: 80%;
     display: flex;
+    justify-content: space-between;
+    padding: 68px 81px 0px 81px;
     background-color: var(--bg-hero);
     border-radius: 30px;
+    .hero-info {
+      width: 45%;
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+      .hero-title {
+        text-transform: uppercase;
+        font-family: "Poppins-bl";
+        font-size: 96px;
+        line-height: 1.2;
+      }
+      .hero-paragraph {
+        font-family: "Poppins";
+        font-size: 32px;
+      }
+      a {
+        width: fit-content;
+        font-family: "Poppins-med";
+        font-size: 30px;
+        text-transform: capitalize;
+      }
+    }
   }
 }
 
