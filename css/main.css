@@ -34,6 +34,7 @@
     padding: 68px 81px 0px 81px;
     background-color: var(--bg-hero);
     border-radius: 30px;
+    box-sizing: border-box;
     .hero-info {
       width: 45%;
       display: flex;
@@ -42,7 +43,7 @@
       .hero-title {
         text-transform: uppercase;
         font-family: "Poppins-bl";
-        font-size: 96px;
+        font-size: 6em;
         line-height: 1.2;
       }
       .hero-paragraph {
