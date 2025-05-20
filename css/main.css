@@ -25,13 +25,16 @@
 #main {
   width: 100%;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   padding-top: 56px;
+
   .hero {
     width: 80%;
     display: flex;
     justify-content: space-between;
     padding: 68px 81px 0px 81px;
+    margin-bottom: 63px;
     background-color: var(--bg-hero);
     border-radius: 30px;
     box-sizing: border-box;
@@ -56,6 +59,19 @@
         font-size: 30px;
         text-transform: capitalize;
       }
+    }
+  }
+  .brands {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: var(--primary-color);
+    padding: 70px 0;
+    
+    .brands-container {
+      width: 80%;
+      display: flex;
+      justify-content: space-around;
     }
   }
 }
