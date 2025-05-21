@@ -60,12 +60,11 @@
         font-size: 30px;
         text-transform: capitalize;
       }
-
-      .hero-image {
-        position: absolute;
-        bottom: 0;
-        right: 0;
-      }
+    }
+    .hero-image {
+      position: absolute;
+      bottom: 0;
+      right: 0;
     }
   }
   .brands {
